@@ -1,0 +1,395 @@
+
+body{
+	 background-color: #ffffff; 
+    background-image: radial-gradient(#7DB5B5 1.5px, transparent 1px); 
+    background-size: 30px 30px; 
+}
+
+article{
+     writing-mode: vertical-rl;
+     text-align: right;
+
+}
+.bean, .wasabi, .cheese, .coffee, .milk, .water,.wasa,.sesame,.cho,.koko { 
+    font-size: 0;
+     position: relative; 
+}
+.water,.milk2,.coffee,.cho,.koko,.steaksous,.cheese,.sesame,.straw,.bean,.sauce,.wasa,.hotsous2,.chojangchojang,.straw{
+	position: relative; 
+	overflow: visible;
+}
+.new-label {
+    position: absolute;
+   
+    top: 50%;
+    right: 50%; 
+    transform: translate(50%, -50%); 
+      color: #3A3121;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+    pointer-events: none;
+    writing-mode: horizontal-tb; 
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%); 
+}
+h1{
+	background-color:white;
+	writing-mode: vertical-rl;
+	color:#636c37;
+}
+.f1{
+	/*background-color:blue;*/
+	position:absolute;
+	width:60vw;
+	height:40vh;
+	bottom:0;
+	left:20%;
+}
+.water{
+	background-color:#E9FDF9;
+	color:#636c37;
+	position:absolute;
+	width:15%;
+	height:50%;
+	bottom:0%;
+	left:3%;
+}
+.water::before {
+    content: ""; 
+    position: absolute;
+    top: 30%;         
+    left: 0;        
+    width: 100%;   
+    height: 40px;   
+    background-color: #A5F0FC; 
+}
+.milk{
+	/*background-color:#F2F2F2;*/
+	color:#636c37;
+	position:absolute;
+	width:20%;
+	height:75%;
+	bottom:0%;
+	left:20%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.cap5{
+	background-color:#FC3939;
+	width: 50%;
+	height:20px;
+	color:#FC3939;
+	overflow: hidden; 
+	
+	
+}
+.milk2{
+	background-color:#F2F2F2;
+	height: 100%;
+	bottom:0%;
+	right:0%;
+	width:100%;
+	color:#F2F2F2;
+	border-radius: 20px;
+	bottom:0;
+}
+.coffee{
+	background-color:#D0AC64;
+	color:#636c37;
+	position:absolute;
+	width:13%;
+	height:60%;
+	bottom:0%;
+	left:50%;
+	border-radius: 20px
+}
+.coffee::before {
+    content: "";
+    position: absolute;
+    top: 0%;         
+    left: 0;       
+    width: 100%;    
+    height: 40px;   
+    background-color: #553B24; 
+    border-radius: 3px
+}
+
+.cho{
+	background-color:#553B24;
+	color:#636c37;
+	position:absolute;
+	width:15%;
+	height:55%;
+	bottom:0%;
+	right:20%;
+}
+.cho::before {
+    content: ""; 
+    position: absolute;
+    top: 30%;         
+    left: 0;        
+    width: 100%;   
+    height: 5px;   
+    background-color: #F5F1EE; 
+}
+.koko{
+	background-color:#553B24;
+	color:#636c37;
+	position:absolute;
+	width:15%;
+	height:55%;
+	bottom:0%;
+	right:3%;
+}
+.koko::before {
+    content: "";
+    position: absolute;
+    top: 30%;         
+    left: 0;        
+    width: 100%;    
+    height: 5px;   
+    background-color: #F5F1EE; 
+}
+
+
+.f2{
+	/*background-color:red;*/
+	position:absolute;
+	width:60vw;
+	height:30vh;
+	bottom:40%;
+	left:20%;
+}
+.steak{
+	/*background-color:#87633f;*/
+	color:#f4f7ce;
+	position:absolute;
+	width:17%;
+	height:90%;
+	bottom:0%;
+	left:2%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.cap4{
+	background-color:#443E3C;
+	width: 50%;
+	hieght:100px;
+	color:#443E3C;
+	overflow: hidden; 
+	top:0;
+	
+}
+.steaksous{
+	background-color:#664646;
+	height: 100%;
+	bottom:0%;
+	right:0%;
+	width:100%;
+	color:#664646;
+	border-radius: 10px;
+	bottom:0;
+}
+
+.cheese{
+	background-color:#FDF9BE;
+	color:#636c37;
+	position:absolute;
+	width:14%;
+	height:90%;
+	bottom:0%;
+	left:20%;
+}
+.cheese::before {
+    content: ""; 
+    position: absolute;
+    top: 0;        
+    left: 0;        
+    width: 100%;    
+    height: 20px;   
+    background-color: #443E3C; 
+}
+.sesame{
+	background-color:#E5E4CF;
+	color:#636c37;
+	position:absolute;
+	width:30%;
+	height:55%;
+	bottom:0%;
+	left:40%;
+}
+.sesame::before {
+    content: "";
+    position: absolute;
+    top: 0;       
+    left: 0;       
+    width: 100%;    
+    height: 20px;   
+    background-color: #F2F1E0; 
+}
+.straw{
+	background-color:#D8392E;
+	color:#636c37;
+	position:absolute;
+	width:20%;
+	height:65%;
+	bottom:0%;
+	right:5%;
+}
+.straw::before {
+    content: ""; 
+    position: absolute;
+    top: 0;        
+    left: 0;        
+    width: 100%;    
+    height: 20px;   
+    background-color: #443E3C; 
+}
+.straw::after {
+    content: ""; 
+    position: absolute;
+    bottom: 10%;         
+    left: 0;        
+    width: 100%;    
+    height: 41px;   
+    background-color: #FDF5E9; 
+}
+.f3{
+	/*background-color:yellow;*/
+	position:absolute;
+	width:60vw;
+	height:30vh;
+	top:0;
+	left:20%;
+}
+.bean{
+	background-color:#fdfed6;
+	color:#636c37;
+	position:absolute;
+	width:20%;
+	height:65%;
+	bottom:0%;
+	left:0%;
+}
+.bean::before {
+    content: "";
+    position: absolute;
+    top: 0;         
+    left: 0;        
+    width: 100%;   
+    height: 20px;   
+    background-color: #EFDF76; 
+}
+.hot{
+	/*background-color:#DA674A;*/
+	color:#636c37;
+	position:absolute;
+	width:20%;
+	height:88%;
+	bottom:0%;
+	left:22%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+}
+.cap {
+	background-color:#443E3C;
+	width: 50%;
+	color:#443E3C;
+	overflow:hidden;
+}
+.sauce {
+	background-color:#E57350;
+	height: 80%;
+	width:100%;
+	color:#E57350;
+	border-radius: 10px;
+}
+.wasa{
+	background-color:#747d59;
+	color:#f4f7ce;
+	position:absolute;
+	width:10%;
+	height:60%;
+	bottom:0%;
+	left:42%;
+}
+.wasa::before {
+    content: ""; 
+    position: absolute;
+    bottom: 0%;        
+    left: 0;        
+    width: 100%;    
+    height: 25px;   
+    background-color: #3D543D; 
+}
+.hotsous{
+	/*background-color:#edb8b4;*/
+	color:#636c37;
+	position:absolute;
+	width:13%;
+	height:80%;
+	bottom:0%;
+	right:34%;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.cap2{
+	background-color:#443E3C;
+	width: 50%;
+	color:#443E3C;
+	overflow: hidden;  
+}
+.hotsous2{
+	background-color:#E57350;
+	height: 80%;
+	right:0%;
+	width:100%;
+	color:#E57350;
+	border-radius: 10px;
+}
+.hotsous::before {
+    content: ""; 
+    position: absolute;
+    bottom: 20%;         
+    left: 0;        
+    width: 100%;    
+    height: 50px;  
+    background-color: #747d59; 
+}
+
+.choj{
+	/*background-color:#f1ccb1;*/
+	color:#636c37;
+	position:absolute;
+	width:15%;
+	height:90%;
+	bottom:0%;
+	right:6%;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.cap3{
+	background-color:#FC3939;
+	width: 50%;
+	color:#FC3939;
+	overflow: hidden; 
+	
+}
+.chojang{
+	background-color:#E57350;
+	height: 100%;
+	right:0%;
+	width:100%;
+	color:#E57350;
+	border-radius: 10px;
+}
